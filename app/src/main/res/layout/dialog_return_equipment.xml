@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="20dp"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginTop="25dp"
+       android:paddingStart="15dp"
+       android:paddingEnd="15dp">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="start"
+           android:text="Défaillance"
+           android:textColor="@color/black"
+           android:textSize="17dp"
+           android:fontFamily="@font/medio"
+           android:textStyle="bold"
+           />
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:lines="3"
+           android:id="@+id/def"/>
+
+       <android.support.v7.widget.AppCompatButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:paddingEnd="25dp"
+           android:paddingStart="25dp"
+           android:id="@+id/return_btn"
+           android:layout_gravity="center_horizontal"
+           android:background="@color/colorAccent"
+           android:textColor="@color/white"
+           android:text="Retourner"/>
+
+
+   </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Optima Reserv</string>
+    <string name="email">E-mail</string>
+    <string name="passwd">Mot de passe</string>
+    <string name="login_btn">LOGIN</string>
+    <string name="login">Log In</string>
+    <string name="title_activity_main">Materiel</string>
+    <string name="title_equipments">Equipements</string>
+    <string name="title_expandables">Consommables</string>
+</resources>
